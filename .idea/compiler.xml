@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="report" />
+        <module name="stream" />
+        <module name="sync-db" />
+        <module name="syncdb" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="pyg-0728" target="1.8" />
+      <module name="report" target="1.8" />
+      <module name="stream" target="1.8" />
+      <module name="sync-db" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="pyg-0728" options="" />
+      <module name="report" options="" />
+      <module name="stream" options="" />
+      <module name="sync-db" options="" />
+    </option>
+  </component>
+</project>
